@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+}
+
+.task-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 20px;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  margin: 5px;
+}
